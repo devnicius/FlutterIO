@@ -19,9 +19,3 @@ tasks:
 vscode:
   extensions:
     - Dart-Code.flutter@3.7.0
-
-ports:
-  - port: 3000-8079
-    onOpen: ignore
-  - port: 8081-99999
-    onOpen: ignore
