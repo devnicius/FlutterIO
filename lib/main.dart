@@ -16,7 +16,7 @@ class MeuApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
-      home: MoedasPage(),
+      home: MoedasPage(),ls
     );
   }
 }
