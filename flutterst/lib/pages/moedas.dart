@@ -19,7 +19,7 @@ class _MoedasPageState extends State<MoedasPage> {
     final tabela = MoedaRepo.tabela;
     const IconData ico = IconData(0xe3f7, fontFamily: 'MaterialIcons');
     NumberFormat real = NumberFormat.currency(locale: 'pt_BR', name: 'R\$');
-    return Scaffold(
+    return Scaffold( 
         appBar: AppBar(
           title: Text('°\$°'),
         ),
