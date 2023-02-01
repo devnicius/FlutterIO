@@ -18,4 +18,10 @@ tasks:
     /home/gitpod/android-sdk/tools/bin/sdkmanager "platform-tools" "platforms;android-28" "build-tools;28.0.3"
 vscode:
   extensions:
-    - Dart-Code.flutter@3.5.0
+    - Dart-Code.flutter@3.7.0
+
+ports:
+  - port: 3000-8079
+    onOpen: ignore
+  - port: 8081-99999
+    onOpen: ignore
