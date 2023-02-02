@@ -13,9 +13,7 @@ class MeuApp extends StatelessWidget {
     return MaterialApp(
       title: "Bem-vindo(a)",
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.indigo,
-      ),
+      theme: ThemeDatagiy,
       home: MoedasPage(),
     );
   }

@@ -53,7 +53,6 @@ class _MoedasPageState extends State<MoedasPage> {
                 (selecionadas.contains(tabela[moeda]))
                   ? selecionadas.remove(tabela[moeda])
                   : selecionadas.add(tabela[moeda]);
-                  
                 });
               },
             );
