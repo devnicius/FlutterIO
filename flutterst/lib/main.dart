@@ -11,9 +11,9 @@ class MeuApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(primarySwatch: Colors.indigo),
       title: "Bem-vindo(a)",
       debugShowCheckedModeBanner: false,
-      theme: ThemeDatagiy,
       home: MoedasPage(),
     );
   }
